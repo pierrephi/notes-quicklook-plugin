@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E2A70F81822CCE100774C92"
-               BuildableName = "lotus.notes.mail.message.qlgenerator"
+               BuildableName = "lotus.notes.item.viewer.qlgenerator"
                BlueprintName = "lotus.notes.item.viewer"
                ReferencedContainer = "container:lotus.notes.item.viewer.xcodeproj">
             </BuildableReference>

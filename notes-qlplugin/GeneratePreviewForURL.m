@@ -45,7 +45,7 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
         
         
         NSString *uti = (__bridge NSString *)(contentTypeUTI);
-        if ([uti isEqualToString:@"com.ibm.lotus.notes.virtual.message"]) {
+        if ([uti hasSuffix:@"notes.virtual.message"]) {
             
             NSString *from = (NSString *) [plist objectForKey:@"from"];
             if (from) {
@@ -97,7 +97,7 @@ OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview,
                 [output appendAttributedString: newline];
                 
             }
-        } else if ([uti isEqualToString:@"com.ibm.lotus.notes.virtual.calendar"]) {
+        } else if ([uti hasSuffix:@"notes.virtual.calendar"]) {
             
             NSString *organizer = (NSString *) [plist objectForKey:@"organizer"];
             if (organizer) {

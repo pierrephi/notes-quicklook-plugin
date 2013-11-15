@@ -11,6 +11,8 @@
 			<string>QLGenerator</string>
 			<key>LSItemContentTypes</key>
 			<array>
+				<string>com.ibm.notes.virtual.message</string>
+				<string>com.ibm.notes.virtual.calendar</string>
 				<string>com.ibm.lotus.notes.virtual.message</string>
 				<string>com.ibm.lotus.notes.virtual.calendar</string>
 			</array>
@@ -27,9 +29,9 @@
 	<key>CFBundleName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFPlugInDynamicRegisterFunction</key>
 	<string></string>
 	<key>CFPlugInDynamicRegistration</key>
